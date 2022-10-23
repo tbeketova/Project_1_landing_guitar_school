@@ -1,0 +1,24 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 87" width="134" height="87">
+	<title>logo guitar</title>
+	<defs>
+		<image  width="15" height="7" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAHCAMAAADgW+cVAAAAAXNSR0IB2cksfwAAAGBQTFRFAAAACAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHd13bkAAAACB0Uk5TACLx4QwI0sQDrJbm//7tys+g/aj0/PLl1M35sOwP1rObk00XAAAARUlEQVR4nIWMNw6AMBDATA9wByGFXv7/S7Iz4M2SZfgjy4uSqm4MtF3yXnRgFLVM4jyEqDNL1JVtdweYM1xg79T753N7AW0AAp7uTBBCAAAAAElFTkSuQmCC"/>
+		<image  width="32" height="13" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAANCAMAAAD/lpwuAAAAAXNSR0IB2cksfwAAAMNQTFRFAAAACAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHCAcHNUHKggAAAEF0Uk5TACixCUwnPsEBc8dyOxaqkCCruKbq28KwCgO0/PP7+Zw45vfUJUj6/v3246JcwPj0pAwNqeX/hA4Xp+SPlsPFlD8965H9AAAAgElEQVR4nGNgoAgwMuGUYmZhZWBgY+fAJc/Jxc3Dy8ePQ15AUEhYRFRMXAKrrKSUtLSMrJw8qyRWaQVFaSU5OWUV7Eariqmpa2hqaWPTK6mjKycrraSnb2CIRdbI2ETD1FRJycTMHKvJFpZ6svoyVtbYXcXAIGRja2fvgEOSCAAA5lELD5NVVCwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #000000 } 
+		.t1 { font-size: 18px;fill: #000000;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t2 { font-size: 16px;fill: #6c6969;font-weight: 200;font-family: "DejaVuSans-ExtraLight", "DejaVu Sans" } 
+	</style>
+	<path id="форма 1" class="s0" d="m25 61c-6.1-1.5-6.8-2.3-11-7-2.6-2.9-1.8-3.7-4-7-1.4-2.1-2.1-1.8-3-4-2.1-5.3-1.9-6.6 0-12 0.6-1.6 0.9-1.6 2-3 1.3-1.6 1.3-1.8 3-3 1.8-1.3 1.9-1.6 4-2 2.8-0.5 3 0.5 6 1 3 0.5 3 0.5 6 1 3 0.5 3 0.8 6 1 2.5 0.2 2.6 0.5 5 0 1.5-0.3 1.6-0.3 3-1 2.2-1.1 2.1-1.4 4-3 2.1-1.8 1.6-3 4-4 2.2-0.8 2.6-0.6 5 0 2.1 0.5 2.7 0.5 4 2 2.6 3-1.8 8 1 9 2.4 0.9 4.7 1.3 7 1.3 1.7 0.1 4.7-0.6 5-0.4 0.3 0.2 5.9-1.7 8.9-3.1 13.1-6.2 26.5-18.3 45.1-15.8 3 0.4 3.7 2.7 4 6 0.2 1.9 0 3.5-1 4-1.3 0.6-1.8-2-4-3-2.7-1.2-3-0.9-6-1-7-0.3-14 2.1-14 2.1 0 0-2.7 1-6.8 2.4-10 3.4-27.9 9.5-32.2 10.5-2.9 0.7-3 0.8-6 1-2 0.1-2 0.2-4 0-2.5-0.2-2.6-1.4-5-1-2.1 0.3-2.4 0.6-4 2-2.9 2.5-1 5.2-4 7-3.3 2-5.4-1.7-9 0-4 1.9-5.3 3.8-6 8-0.9 5.7 8.5 9.4 6 12-1.7 1.7-4.8 1.1-9 0z"/>
+	<use id="Слой 1" href="#img1" x="112" y="4"/>
+	<use id="Слой 2" href="#img2" x="62" y="21"/>
+	<text id="GUITAR" style="transform: matrix(1,0,0,1,33.667,57.333)" >
+		<tspan x="0" y="0" class="t1">G</tspan><tspan  y="0" class="t1">U</tspan><tspan  y="0" class="t1">I</tspan><tspan  y="0" class="t1">T</tspan><tspan  y="0" class="t1">A</tspan><tspan  y="0" class="t1">R
+</tspan>
+	</text>
+	<text id="SCHOOL" style="transform: matrix(1,0,0,1,49,72)" >
+		<tspan x="0" y="0" class="t2">S</tspan><tspan  y="0" class="t2">C</tspan><tspan  y="0" class="t2">H</tspan><tspan  y="0" class="t2">O</tspan><tspan  y="0" class="t2">O</tspan><tspan  y="0" class="t2">L
+</tspan>
+	</text>
+</svg>

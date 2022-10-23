@@ -1,0 +1,435 @@
+@import "normalizes.scss"
+@import "resets.scss"
+
+$color-grey-background: #edecec
+$color-grey-element: #bab9b9
+$color-orange: #fc7e61
+$color-azur: #03a3a3
+
+*
+    box-sizing: border-box
+
+@font-face
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+
+@font-face
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+
+html
+    font-family: "MontserratT", serif
+    font-weight: regular
+
+.container
+    max-width: 1140px
+    margin: 0 auto
+
+.main-section
+    border: 1px solid green
+    position: relative
+    min-height: 650px
+    background: $color-grey-background
+    padding-top: 16px
+    overflow: hidden //обрезает все что выходит за границы, используется с position:relative
+    &__nav-container
+        border: 1px solid #5290EA
+        display: flex
+        flex-direcion: row
+        justify-content: space-between
+        height: 69px
+        align-items: center
+    &__logo
+        width: 134px
+    &__content-container
+        display: flex
+        flex-direction: row
+        position: relative
+    &__img-notes
+        width: 461px
+        height: 151px
+        opacity: 0.3
+        position: absolute
+        top: 388px
+        right: -25px
+        transform: rotate(332deg)
+    &__first-elipse
+        position: absolute
+        top: 200px
+        right: 42px
+        z-index: 1
+        opacity: 0.8
+    &__second-elipse
+        position: absolute
+        top: 650px
+        right: -125px
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 64px
+        font-size: 18px
+        &:last-child
+            margin-right: 0px
+        a
+            text-decoration: none
+            color: black
+
+.left-wrapper
+    position: relative
+    img
+        z-index: 5 // z индекс не работает без position
+        position: relative
+        top: 59px
+        left: 7px
+    &__rectangle-blue
+        top: 208px
+        left: -46px
+        position: absolute
+        z-index: 2
+        width: 566px
+        height: 220px
+        background: $color-azur
+        border-radius: 100px
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) //тень
+        transform: rotate(-64deg) //поворот фигуры
+    &__rectangle-orange
+        position: absolute
+        z-index: 3
+        top: 222px
+        left: 4px
+        width: 607px
+        height: 220px
+        background: $color-orange
+        border-radius: 100px
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) //тень
+        transform: rotate(298deg)
+    &__rectangle-grey
+        position: absolute
+        z-index: 4
+        top: 221px
+        left: 105px
+        width: 571px
+        height: 194px
+        background: $color-grey-element
+        border-radius: 100px
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) //тень
+        transform: rotate(298deg)
+
+.right-wrapper
+    border: 1px solid $color-orange
+    width: 372px
+    position: absolute
+    z-index: 2
+    top: 146px
+    right: 54px
+    &__icons-box
+        padding-left: 10px
+    &__buttons
+        display: flex
+    &__text
+        font-size: 16px
+        margin-bottom: 20px
+    &__title
+        margin-bottom: 5px
+
+.icons
+    display: inline-flex
+    &__item
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 40px
+        height: 40px
+        border: 1px solid $color-azur
+        border-radius: 100px
+        margin-right: 17px
+        &:last-child
+            margin-right: 0px
+        i
+            font-size: 21px
+            color: black
+
+.title
+    font-size: 72px
+    position: relative
+    font-weight: bold
+    &__hr
+        width: 65px
+        position: absolute
+        bottom: 0px
+        margin: 0px
+        border: none
+        border-top: 1px solid black
+
+.button
+
+    &__main-btn
+        margin-right: 32px
+        width: 200px
+        height: 60px
+        padding: 11px 24px
+        background: $color-orange
+        border-radius: 30px
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+        border: none
+        font-size: 18px
+        font-weight: bold
+        color: white
+    &__icon-btn
+        display: inline-flex
+        align-items: center
+        img
+            margin-right: 12px
+
+.elipse
+    width: 194px
+    height: 194px
+    background: linear-gradient(143.92deg, #ED7B50 14.85%, #488AEA 53.25%, #2C2C2C 85.74%)
+    border-radius: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+    opacity: 0.5
+    &__subtract
+        width: 129px
+        height: 129px
+        /*background: $color-grey
+        border-radius: 100px
+        &_big
+            width: 195px
+            height: 195px
+    &_dig
+        width: 282px
+        height: 282px
+        border-radius: 200px
+        opacity: 0.6
+
+.second-section
+    overflow: hidden
+    min-height: 700px
+    border: 1px solid #ED7B50
+
+    &__container
+        padding-top: 70px
+        position: relative
+    &__title
+        margin-bottom: 70px
+    &__cards-box
+        display: flex
+        justify-content: space-between
+        margin-bottom: 55px
+        border: 1px solid red
+    &__icons-box
+        display: flex
+        justify-content: space-evenly
+        margin-bottom: 66px
+    &__first-elipse
+        position: absolute
+        top: 332px
+        left: -80px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        top: 46px
+        left: 1032px
+        z-index: -1
+
+.cards-item
+    position: relative
+    width: 270px
+    height: 270px
+    background: #E2E2E2
+    border-radius: 10px
+    display: flex
+    align-items: flex-end
+    font-weight: bold
+    &__img
+        position: absolute
+        top: -62px
+        left: 75px
+        width: 112px
+        height: 346px
+        opacity: 0.7
+        transform: rotate(35deg)
+
+    &__text
+        width: 280px
+        font-size: 32px
+        text-align: center
+        /*transform: rotate(90deg)
+        position: absolute
+        top: 186px
+        right: -62px
+    &_grey
+        background: $color-grey-background
+    &_orange
+        background: $color-orange
+    &_blue
+        background: $color-azur
+    &_light-sand
+        background: #e5c795
+
+.icons-item
+    display: flex
+    align-items: center
+
+    /* margin-right: 40px */
+    &:last-child
+        margin: 0px
+    &__text
+        font-size: 18px
+        span
+            font-size: 48px
+            font-weight: bold
+    &__img
+        margin-right: 20px
+        width: 80px
+        height: 80px
+        opacity: 0.6
+
+.third-section
+    min-height: 600px
+    /*background: $color-grey
+    position: relative
+    overflow: hidden
+    &__container
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        padding-left: 167px
+        padding-top: 47px
+    &__first-elipse
+        position: absolute
+        top: 153px
+        left: 257px
+        z-index: 2
+        opacity: 0.5
+    &__second-elipse
+        position: absolute
+        top: -140px
+        right: -149px
+    &__figure
+        position: absolute
+        z-index: 1
+        top: 226px
+        left: 190px
+    &__right-wrapper
+        max-width: 480px
+        &__buttons
+            margin-bottom: 46px
+    &__right-title
+        margin-bottom: 20px
+    &__left-title
+        z-index: 3
+    &__text
+        margin-bottom: 30px
+        font-size: 18px
+
+.title__hr_top
+    bottom: 75px
+
+.footer
+    position: relative
+    &__img
+        position: absolute
+        left: -80px
+        top: -12px
+        bottom: 0px
+    &__container
+        display: flex
+        min-height: 272px
+        align-items: center
+        justify-content: flex-end
+    &__title
+        margin-bottom: 20px
+
+@media (max-width: 1199px)
+    .container
+        width: 960px
+    .left-wrapper
+        img
+            width: 750px
+        &__rectangle-blue
+            top: 150px
+            left: -85px
+            width: 540px
+            height: 186px
+            transform: rotate(290deg)
+        &__rectangle-orange
+            top: 166px
+            left: -55px
+            width: 592px
+            height: 182px
+            transform: rotate(307deg)
+
+        &__rectangle-grey
+            top: 187px
+            left: -14px
+            width: 592px
+            height: 182px
+            transform: rotate(320deg)
+    .right-wrapper
+        top: 114px
+        right: 22px
+        &__title
+            font-size: 70px
+    .main-section__first-elipse
+        top: 65px
+        right: -11px
+    .main-section
+        min-height: 689px
+    .elipse_dig
+        top: 558px
+        right: -129px
+    .cards-item
+        width: 303px
+        height: 293px
+        &__img
+            height: 283px
+        &__text
+            font-size: 34px
+            top: 116px
+            right: -62px
+    .title
+        font-size: 70px
+    .second-section
+        &__container
+            padding-top: 43px
+        &__cards-box
+            margin-bottom: 72px
+        &__first-elipse
+            top: 300px
+            left: -16px
+        &__second-elipse
+            top: 35px
+            left: 847px
+    .third-section
+        &__container
+            padding-left: 63px
+        &__figure
+            left: 12px
+        &__first-elipse
+            top: 153px
+            left: 86px
+    .footer
+        &__img
+            width: 600px
+            top: 6px
+
+@media (max-width: 991px)
+    .container
+        width: 720px
+
+@media (max-width: 767px)
+    .container
+        width: 540px
+
+@media (max-width: 575px)
+    .container
+        width: 100%
