@@ -81,14 +81,14 @@ html
 
 .left-wrapper
     position: relative
-    img
+    &__img
         z-index: 5 // z индекс не работает без position
         position: relative
         top: 59px
         left: 7px
     &__rectangle-blue
-        top: 208px
-        left: -46px
+        top: 207px
+        left: -61px
         position: absolute
         z-index: 2
         width: 566px
@@ -349,6 +349,7 @@ html
 
 .footer
     position: relative
+
     &__img
         position: absolute
         top: 5px
@@ -366,75 +367,76 @@ html
 @media (max-width: 1199px)
     .container
         width: 960px
+    .main-section
+        /* min-height: 689px */
+        &__img-notes
+            width: 502px
+            height: 151px
+            opacity: 0.3
+            position: absolute
+            top: 328px
+            right: -127px
+            transform: rotate(332deg)
     .left-wrapper
-        img
-            width: 750px
+        position: relative
+        &__img
+            z-index: 5 // z индекс не работает без position
+            position: relative
+            top: 99px
+            left: -102px
         &__rectangle-blue
-            top: 150px
-            left: -85px
-            width: 540px
-            height: 186px
-            transform: rotate(290deg)
+            top: 249px
+            left: -153px
+            width: 566px
+            height: 220px
+
         &__rectangle-orange
-            top: 166px
-            left: -55px
-            width: 592px
-            height: 182px
-            transform: rotate(307deg)
+            top: 264px
+            left: -94px
+            width: 607px
+            height: 220px
 
         &__rectangle-grey
-            top: 187px
-            left: -14px
-            width: 592px
-            height: 182px
-            transform: rotate(320deg)
+            top: 254px
+            left: 11px
+            width: 571px
+            height: 194px
+
     .right-wrapper
-        top: 114px
-        right: 22px
+        top: 124px
+        right: 13px
         &__title
             font-size: 70px
-    .main-section__first-elipse
-        top: 65px
-        right: -11px
-    .main-section
-        min-height: 689px
-    .elipse_dig
-        top: 558px
-        right: -129px
+
     .cards-item
-        width: 303px
-        height: 293px
+        width: 230px
+        height: 230px
+
         &__img
-            height: 283px
+            height: 309px
+            top: -68px
+            left: 66px
         &__text
-            font-size: 34px
-            top: 116px
-            right: -62px
+            font-size: 26px
+            top: 165px
+            right: -79px
     .title
-        font-size: 70px
-    .second-section
-        &__container
-            padding-top: 43px
-        &__cards-box
-            margin-bottom: 72px
-        &__first-elipse
-            top: 300px
-            left: -16px
-        &__second-elipse
-            top: 35px
-            left: 847px
+        font-size: 55px
     .third-section
-        &__container
-            padding-left: 63px
-        &__figure
-            left: 12px
-        &__first-elipse
-            top: 153px
-            left: 86px
+        &__img-notes
+            top: 159px
+            left: 11px
+            width: 509px
+            height: 145px
+        &__right-wrapper
+            max-width: 503px
     .footer
         &__img
-            width: 600px
+            width: 500px
             top: 6px
+        &__container
+            padding-top: 25px
+            min-height: 200px
 
 @media (max-width: 991px)
     .container
