@@ -500,8 +500,8 @@ html {
   height: 151px;
   opacity: 0.3;
   position: absolute;
-  top: 388px;
-  right: -25px;
+  top: 347px;
+  right: -63px;
   transform: rotate(332deg);
 }
 
@@ -602,7 +602,7 @@ html {
 /* line 123, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .right-wrapper {
   border: 1px solid #fc7e61;
-  width: 372px;
+  width: 390px;
   position: absolute;
   z-index: 2;
   top: 146px;
@@ -660,7 +660,7 @@ html {
 
 /* line 157, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .title {
-  font-size: 72px;
+  font-size: 62px;
   position: relative;
   font-weight: bold;
 }
@@ -675,7 +675,15 @@ html {
   border-top: 1px solid black;
 }
 
-/* line 171, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 168, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+.title__hr_top {
+  width: 65px;
+  position: absolute;
+  top: 59px;
+  margin: 0px;
+}
+
+/* line 176, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .button__main-btn {
   margin-right: 32px;
   width: 200px;
@@ -690,18 +698,18 @@ html {
   color: white;
 }
 
-/* line 183, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 188, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .button__icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 186, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 191, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .button__icon-btn img {
   margin-right: 12px;
 }
 
-/* line 189, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 194, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .elipse {
   width: 194px;
   height: 194px;
@@ -713,7 +721,7 @@ html {
   opacity: 0.5;
 }
 
-/* line 198, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 203, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .elipse__subtract {
   width: 129px;
   height: 129px;
@@ -721,13 +729,13 @@ html {
   border-radius: 100px;
 }
 
-/* line 203, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 208, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .elipse__subtract_big {
   width: 195px;
   height: 195px;
 }
 
-/* line 206, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 211, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .elipse_dig {
   width: 282px;
   height: 282px;
@@ -735,25 +743,25 @@ html {
   opacity: 0.6;
 }
 
-/* line 212, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 217, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .second-section {
   overflow: hidden;
   min-height: 700px;
   border: 1px solid #ED7B50;
 }
 
-/* line 217, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 222, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .second-section__container {
   padding-top: 70px;
   position: relative;
 }
 
-/* line 220, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 225, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .second-section__title {
   margin-bottom: 70px;
 }
 
-/* line 222, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 227, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .second-section__cards-box {
   display: flex;
   justify-content: space-between;
@@ -761,14 +769,14 @@ html {
   border: 1px solid red;
 }
 
-/* line 227, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 232, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 66px;
 }
 
-/* line 231, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 236, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: 332px;
@@ -776,7 +784,7 @@ html {
   z-index: -1;
 }
 
-/* line 236, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 241, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: 46px;
@@ -784,7 +792,7 @@ html {
   z-index: -1;
 }
 
-/* line 242, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 247, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .cards-item {
   position: relative;
   width: 270px;
@@ -796,7 +804,7 @@ html {
   font-weight: bold;
 }
 
-/* line 251, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 256, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .cards-item__img {
   position: absolute;
   top: -62px;
@@ -807,7 +815,7 @@ html {
   transform: rotate(35deg);
 }
 
-/* line 260, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 265, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .cards-item__text {
   width: 280px;
   font-size: 32px;
@@ -818,50 +826,50 @@ html {
   right: -62px;
 }
 
-/* line 268, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 273, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .cards-item_grey {
   background: #edecec;
 }
 
-/* line 270, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 275, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .cards-item_orange {
   background: #fc7e61;
 }
 
-/* line 272, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 277, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .cards-item_blue {
   background: #03a3a3;
 }
 
-/* line 274, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 279, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .cards-item_light-sand {
   background: #e5c795;
 }
 
-/* line 277, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 282, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .icons-item {
   display: flex;
   align-items: center;
   /* margin-right: 40px */
 }
 
-/* line 282, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 287, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .icons-item:last-child {
   margin: 0px;
 }
 
-/* line 284, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 289, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
 }
 
-/* line 286, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 291, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
   font-weight: bold;
 }
 
-/* line 289, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 294, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
@@ -869,15 +877,15 @@ html {
   opacity: 0.6;
 }
 
-/* line 295, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 300, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section {
   min-height: 600px;
-  /*background: $color-grey */
+  background: #edecec;
   position: relative;
   overflow: hidden;
 }
 
-/* line 300, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 305, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__container {
   display: flex;
   flex-direction: row;
@@ -887,7 +895,18 @@ html {
   padding-top: 47px;
 }
 
-/* line 307, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 312, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+.third-section__img-notes {
+  width: 572px;
+  height: 200px;
+  opacity: 0.3;
+  position: absolute;
+  top: 159px;
+  left: 11px;
+  transform: rotate(332deg);
+}
+
+/* line 320, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__first-elipse {
   position: absolute;
   top: 153px;
@@ -896,14 +915,14 @@ html {
   opacity: 0.5;
 }
 
-/* line 313, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 326, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__second-elipse {
   position: absolute;
   top: -140px;
   right: -149px;
 }
 
-/* line 317, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 330, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__figure {
   position: absolute;
   z-index: 1;
@@ -911,73 +930,74 @@ html {
   left: 190px;
 }
 
-/* line 322, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 335, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__right-wrapper {
-  max-width: 480px;
+  max-width: 582px;
 }
 
-/* line 324, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 337, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__right-wrapper__buttons {
   margin-bottom: 46px;
 }
 
-/* line 326, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 339, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__right-title {
   margin-bottom: 20px;
 }
 
-/* line 328, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 341, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__left-title {
   z-index: 3;
 }
 
-/* line 330, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 343, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .third-section__text {
   margin-bottom: 30px;
   font-size: 18px;
 }
 
-/* line 334, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 347, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .title__hr_top {
   bottom: 75px;
 }
 
-/* line 337, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 350, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .footer {
   position: relative;
 }
 
-/* line 339, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 352, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .footer__img {
   position: absolute;
-  left: -80px;
-  top: -12px;
+  top: 5px;
+  right: 9px;
   bottom: 0px;
+  width: 600px;
 }
 
-/* line 344, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 358, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .footer__container {
-  display: flex;
+  padding-top: 25px;
   min-height: 272px;
   align-items: center;
   justify-content: flex-end;
 }
 
-/* line 349, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+/* line 363, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
 .footer__title {
   margin-bottom: 20px;
 }
 
 @media (max-width: 1199px) {
-  /* line 353, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 367, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .container {
     width: 960px;
   }
-  /* line 356, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 370, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .left-wrapper img {
     width: 750px;
   }
-  /* line 358, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 372, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .left-wrapper__rectangle-blue {
     top: 150px;
     left: -85px;
@@ -985,7 +1005,7 @@ html {
     height: 186px;
     transform: rotate(290deg);
   }
-  /* line 364, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 378, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .left-wrapper__rectangle-orange {
     top: 166px;
     left: -55px;
@@ -993,7 +1013,7 @@ html {
     height: 182px;
     transform: rotate(307deg);
   }
-  /* line 371, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 385, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .left-wrapper__rectangle-grey {
     top: 187px;
     left: -14px;
@@ -1001,80 +1021,80 @@ html {
     height: 182px;
     transform: rotate(320deg);
   }
-  /* line 377, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 391, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .right-wrapper {
     top: 114px;
     right: 22px;
   }
-  /* line 380, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 394, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .right-wrapper__title {
     font-size: 70px;
   }
-  /* line 382, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 396, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .main-section__first-elipse {
     top: 65px;
     right: -11px;
   }
-  /* line 385, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 399, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .main-section {
     min-height: 689px;
   }
-  /* line 387, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 401, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .elipse_dig {
     top: 558px;
     right: -129px;
   }
-  /* line 390, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 404, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .cards-item {
     width: 303px;
     height: 293px;
   }
-  /* line 393, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 407, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .cards-item__img {
     height: 283px;
   }
-  /* line 395, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 409, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .cards-item__text {
     font-size: 34px;
     top: 116px;
     right: -62px;
   }
-  /* line 399, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 413, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .title {
     font-size: 70px;
   }
-  /* line 402, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 416, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .second-section__container {
     padding-top: 43px;
   }
-  /* line 404, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 418, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .second-section__cards-box {
     margin-bottom: 72px;
   }
-  /* line 406, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 420, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .second-section__first-elipse {
     top: 300px;
     left: -16px;
   }
-  /* line 409, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 423, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .second-section__second-elipse {
     top: 35px;
     left: 847px;
   }
-  /* line 413, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 427, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .third-section__container {
     padding-left: 63px;
   }
-  /* line 415, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 429, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .third-section__figure {
     left: 12px;
   }
-  /* line 417, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 431, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .third-section__first-elipse {
     top: 153px;
     left: 86px;
   }
-  /* line 421, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 435, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .footer__img {
     width: 600px;
     top: 6px;
@@ -1082,21 +1102,21 @@ html {
 }
 
 @media (max-width: 991px) {
-  /* line 426, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 440, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .container {
     width: 720px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 430, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 444, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .container {
     width: 540px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 434, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
+  /* line 448, ../../../../../../Html lessons/Udemy веб разработка уроки 2022/копия project2-musician/sass/style.sass */
   .container {
     width: 100%;
   }
