@@ -24,18 +24,18 @@ html
     font-weight: regular
 
 .container
-    max-width: 1140px
+    /*max-width: 1140px
+    max-width: 1100px
     margin: 0 auto
 
 .main-section
-    border: 1px solid green
     position: relative
-    min-height: 650px
+    min-height: 677px
     background: $color-grey-background
     padding-top: 16px
     overflow: hidden //обрезает все что выходит за границы, используется с position:relative
     &__nav-container
-        border: 1px solid #5290EA
+
         display: flex
         flex-direcion: row
         justify-content: space-between
@@ -47,24 +47,15 @@ html
         display: flex
         flex-direction: row
         position: relative
+
     &__img-notes
-        width: 461px
+        width: 497px
         height: 151px
         opacity: 0.3
         position: absolute
-        top: 347px
+        top: 372px
         right: -63px
         transform: rotate(332deg)
-    &__first-elipse
-        position: absolute
-        top: 200px
-        right: 42px
-        z-index: 1
-        opacity: 0.8
-    &__second-elipse
-        position: absolute
-        top: 650px
-        right: -125px
 
 .nav-menu
     &__list
@@ -83,16 +74,16 @@ html
     position: relative
     &__img
         z-index: 5 // z индекс не работает без position
-        position: relative
-        top: 59px
-        left: 7px
+        position: absolute
+        top: 88px
+        left: 6px
     &__rectangle-blue
-        top: 207px
-        left: -61px
+        top: 259px
+        left: -93px
         position: absolute
         z-index: 2
-        width: 566px
-        height: 220px
+        width: 595px
+        height: 178px
         background: $color-azur
         border-radius: 100px
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) //тень
@@ -100,10 +91,10 @@ html
     &__rectangle-orange
         position: absolute
         z-index: 3
-        top: 222px
-        left: 4px
-        width: 607px
-        height: 220px
+        top: 273px
+        left: -55px
+        width: 641px
+        height: 176px
         background: $color-orange
         border-radius: 100px
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) //тень
@@ -111,14 +102,14 @@ html
     &__rectangle-grey
         position: absolute
         z-index: 4
-        top: 221px
-        left: 105px
-        width: 571px
-        height: 194px
+        top: 199px
+        left: 165px
+        width: 454px
+        height: 171px
         background: $color-grey-element
         border-radius: 100px
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) //тень
-        transform: rotate(298deg)
+        transform: rotate(299deg)
 
 .right-wrapper
     border: 1px solid $color-orange
@@ -173,7 +164,6 @@ html
             margin: 0px
 
 .button
-
     &__main-btn
         margin-right: 32px
         width: 200px
@@ -192,34 +182,9 @@ html
         img
             margin-right: 12px
 
-.elipse
-    width: 194px
-    height: 194px
-    background: linear-gradient(143.92deg, #ED7B50 14.85%, #488AEA 53.25%, #2C2C2C 85.74%)
-    border-radius: 100px
-    display: flex
-    justify-content: center
-    align-items: center
-    opacity: 0.5
-    &__subtract
-        width: 129px
-        height: 129px
-        /*background: $color-grey
-        border-radius: 100px
-        &_big
-            width: 195px
-            height: 195px
-    &_dig
-        width: 282px
-        height: 282px
-        border-radius: 200px
-        opacity: 0.6
-
 .second-section
     overflow: hidden
     min-height: 700px
-    border: 1px solid #ED7B50
-
     &__container
         padding-top: 70px
         position: relative
@@ -273,8 +238,6 @@ html
 .icons-item
     display: flex
     align-items: center
-
-    /* margin-right: 40px */
     &:last-child
         margin: 0px
     &__text
@@ -298,8 +261,9 @@ html
         flex-direction: row
         align-items: center
         justify-content: space-between
-        padding-left: 167px
-        padding-top: 47px
+        /*padding-left: 167px
+        /*padding-top: 47px
+        border: 1px solid black
     &__img-notes
         width: 572px
         height: 200px
@@ -308,21 +272,6 @@ html
         top: 159px
         left: 11px
         transform: rotate(332deg)
-    &__first-elipse
-        position: absolute
-        top: 153px
-        left: 257px
-        z-index: 2
-        opacity: 0.5
-    &__second-elipse
-        position: absolute
-        top: -140px
-        right: -149px
-    &__figure
-        position: absolute
-        z-index: 1
-        top: 226px
-        left: 190px
     &__right-wrapper
         max-width: 582px
         &__buttons
@@ -355,47 +304,52 @@ html
     &__title
         margin-bottom: 20px
 
-@media (max-width: 1199px)
+//-----------------------------------------------------------        
+
+@media (max-width: 1199px) // 992 планшет горизонтальная ориентация
     .container
         width: 960px
+
     .main-section
+        min-height: 600px
         &__img-notes
-            width: 502px
-            height: 151px
+            width: 393px
+            height: 111px
             opacity: 0.3
             position: absolute
-            top: 328px
-            right: -127px
-            transform: rotate(332deg)
+            top: 363px
+            right: -28px
+            transform: rotate(342deg)
     .left-wrapper
         position: relative
         &__img
             z-index: 5 // z индекс не работает без position
-            position: relative
-            top: 99px
-            left: -102px
+            position: absolute
+            top: 67px
+            left: -13px
+            width: 575px
         &__rectangle-blue
-            top: 249px
-            left: -153px
+            top: 223px
+            left: -111px
             width: 566px
             height: 220px
 
         &__rectangle-orange
-            top: 264px
-            left: -94px
+            top: 232px
+            left: -84px
             width: 607px
             height: 220px
 
         &__rectangle-grey
-            top: 254px
-            left: 11px
+            top: 230px
+            left: -1px
             width: 571px
-            height: 194px
+            height: 165px
 
     .right-wrapper
         top: 124px
         right: 13px
-
+        width: 370px
         &__title
             font-size: 70px
 
@@ -413,14 +367,14 @@ html
             right: -79px
     .title
         font-size: 55px
+
     .third-section
         &__img-notes
-            top: 159px
-            left: 11px
-            width: 509px
-            height: 145px
-        &__right-wrapper
-            max-width: 503px
+            top: 131px
+            left: -9px
+            width: 410px
+            height: 102px
+
     .footer
         &__img
             width: 500px
@@ -429,53 +383,47 @@ html
             padding-top: 25px
             min-height: 200px
 
-@media (max-width: 991px)
+//----------------768-------------------------
+@media (max-width: 991px) //768 планшет вертикальная ориентация
     .container
-        width: 920px
+        width: 730px
+
     .main-section
-        min-height: 580px
-        overflow: hidden
+        min-height: 500px
         &__img-notes
-            width: 302px
-            height: 81px
-            opacity: 0.3
-            position: absolute
-            top: 358px
-            right: -90px
-            transform: rotate(332deg)
+            width: 268px
+            height: 74px
+            top: 321px
+            right: -47px
+            transform: rotate(344deg)
+
     .left-wrapper
-        position: relative
         &__img
-            z-index: 5 // z индекс не работает без position
-            position: relative
-            top: 50px
-            left: -23px
-            width: 569px
+            top: 68px
+            left: -13px
+            width: 444px
         &__rectangle-blue
-            top: 188px
-            left: -128px
-            width: 566px
+            top: 199px
+            left: -120px
+            width: 512px
             height: 220px
-
         &__rectangle-orange
-            top: 217px
-            left: -92px
+            top: 250px
+            left: -171px
             width: 607px
             height: 170px
-
         &__rectangle-grey
-            top: 217px
-            left: -22px
+            top: 264px
+            left: -130px
             width: 607px
-            height: 170px
+            height: 131px
 
     .right-wrapper
         display: flex
         flex-direction: column
-        /* align-items: center */
-        top: 107px
+        top: 48px
         right: -3px
-        width: 366px
+        width: 328px
         &__title
             font-size: 70px
             align-self: flex-start
@@ -483,64 +431,70 @@ html
         &__buttons
             flex-direction: column
             align-items: center
+            &_third
+                flex-direction: row
+                justify-content: center
+
     .button
         &__main-btn
             margin-bottom: 20px
-    .cards-item
-        width: 220px
-        height: 220px
+        &__icon-btn
 
+    .cards-item
+        width: 170px
+        height: 170px
         &__img
-            height: 300px
-            top: -72px
-            left: 64px
+            height: 236px
+            width: 83px
+            top: -62px
+            left: 53px
         &__text
-            font-size: 24px
-            top: 165px
-            right: -82px
+            font-size: 18px
+            top: 121px
+            right: -94px
     .title
-        font-size: 45px
+        font-size: 40px
         &__hr
             &_top
-                top: 45px
+                top: 39px
                 margin: 0px
 
     .second-section
-        &__icons-box
-            display: flex
-            justify-content: space-evenly
-            margin-bottom: 66px
+        min-height: 500px
+
+    .icons-item
+        &__img
+            margin-right: 10px
+            width: 55px
+            height: 55px
+        &__text
+            font-size: 14px
+            span
+                font-size: 30px
 
     .third-section
+        min-height: 438px
+        &__container
+            border: 1px solid blue
+            flex-direction: column
         &__img-notes
-            top: 159px
-            left: -3px
-            width: 459px
-            height: 120px
+            width: 0px
         &__right-wrapper
-            max-width: 503px
+            max-width: 622px
+        &__text
+            font-size: 16px
 
     .footer
-        &__img
-            width: 500px
-            top: 6px
         &__container
-            padding-top: 25px
-            min-height: 200px
-
-.icons-item
-    &__img
-        margin-right: 15px
-        width: 75px
-        height: 75px
-    &__text
-        font-size: 16px
-        span
-            font-size: 38px
+            padding-top: 14px
+            min-height: 150px
+        &__img
+            width: 423px
+            top: 12px
 
 @media (max-width: 767px)
     .container
-        width: 620px
+        width: 540px
 
 @media (max-width: 575px)
     .container
