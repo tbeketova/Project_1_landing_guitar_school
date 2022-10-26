@@ -521,7 +521,7 @@ html
             margin-right: 0
             font-size: 20px
 
-    /*-----Гамбургер меню-----*/
+    /*-----Start Гамбургер меню-----*/
     .hamburger
         width: 30px
         position: fixed //позиционируем относительно body
@@ -551,7 +551,129 @@ html
         /*display: block //возвращаем меню
         right: 0 //возвращаем меню 2 способ
 
-    /*-----Гамбургер меню-----*/
+    /*-----End Гамбургер меню-----*/
+
+    .main-section
+        min-height: 436px
+        &__img-notes
+            width: 268px
+            height: 74px
+            top: 59px
+            right: 278px
+            transform: rotate(344deg)
+
+    .left-wrapper
+        &__img
+            top: 23px
+            left: -94px
+            width: 398px
+            height: 328px
+        &__rectangle-blue,
+        &__rectangle-orange,
+        &__rectangle-grey
+            display: none
+
+    .right-wrapper
+        display: flex
+        flex-direction: column
+        align-items: center
+        top: 15px
+        right: -3px
+        width: 251px
+        &__title
+            margin-bottom: 10px
+        &__text
+        &__buttons
+            flex-direction: column
+            &_third
+                flex-direction: row
+                justify-content: space-evenly
+
+    .icons
+        &__item
+            width: 35px
+            height: 35px
+    .button
+        &__main-btn
+            &_third
+                margin: 0
+        &__icon-btn
+            font-size: 16px
+
+    .title
+        font-size: 33px
+        &__hr
+            width: 36px
+            &_top
+                top: 39px
+                margin: 0px
+
+    .second-section
+        min-height: 800px
+        &__container
+            padding-top: 30px
+        &__title
+            margin-bottom: 50px
+        &__cards-box
+            height: 510px
+            display: flex
+            justify-content: space-evenly
+            align-items: center
+            flex-wrap: wrap
+            margin-bottom: 35px
+            border: 1px solid red
+        &__icons-box
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-evenly
+            padding: 0 50px
+            height: 170px
+            margin-bottom: 35px
+        &__icons-item
+
+    .icons-item
+        width: 173px
+        &__img
+            margin-right: 20px
+            width: 55px
+            height: 55px
+        &__text
+            font-size: 14px
+            span
+                font-size: 30px
+
+    .cards-item
+        width: 220px
+        height: 220px
+        &__img
+            height: 268px
+            width: 92px
+            top: -44px
+            left: 59px
+        &__text
+            font-size: 22px
+            top: 146px
+            right: -79px
+
+    .third-section
+        min-height: 438px
+        position: relative
+        &__container
+            border: 1px solid blue
+            flex-direction: column
+        &__img-notes
+            width: 0px
+        &__text
+            font-size: 16px
+
+    .footer
+        &__container
+            padding-top: 14px
+            min-height: 150px
+        &__img
+            width: 303px
+            top: 14px
+            right: 0px
 
 //----------------320 телефон вертикальная ориентация
 @media (max-width: 575px)
