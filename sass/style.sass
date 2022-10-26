@@ -19,16 +19,11 @@ $color-azur: #03a3a3
 *
     box-sizing: border-box
 
-a
-    &:hover
-        color: $color-orange
-
 html
     font-family: "MontserratT", serif
     font-weight: regular
 
 .container
-    /*max-width: 1140px
     max-width: 1100px
     margin: 0 auto
 
@@ -39,7 +34,6 @@ html
     padding-top: 16px
     overflow: hidden //обрезает все что выходит за границы, используется с position:relative
     &__nav-container
-
         display: flex
         flex-direcion: row
         justify-content: space-between
@@ -51,7 +45,6 @@ html
         display: flex
         flex-direction: row
         position: relative
-
     &__img-notes
         width: 497px
         height: 151px
@@ -73,6 +66,8 @@ html
         a
             text-decoration: none
             color: black
+            &:hover
+                color: $color-orange
 
 .left-wrapper
     position: relative
